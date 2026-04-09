@@ -45,7 +45,7 @@ const CaptainRiding = (props) => {
         <h5 onClick={() => {}}
          className='p-1 text-center w-[93%] absolute top-0'><i className="text-2xl text-gray-600 ri-arrow-up-wide-line"></i></h5>
           <h4 className='text-xl font-semibold'>4 KM away</h4>
-          <button className='bg-green-600 text-white font-semibold px-10 p-3 rounded-xl'>Complete Ride</button>
+          <button className='bg-green-600 text-red font-semibold px-10 p-3 rounded-xl'>Complete Ride</button>
         </div>
 
         <div ref={finishRidePanelRef} className='w-full h-screen translate-y-full fixed z-10 bottom-0 px-3 py-6 pt-12 bg-white'>

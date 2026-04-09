@@ -61,7 +61,7 @@ const Riding = (props) => {
                 
             </div>
         </div>
-            <button className='w-full mt-5 bg-green-500 text-white font-semibold p-2 rounded-lg'>Make a Payment</button>
+            <button className='w-full mt-5 bg-green-500 text-red font-semibold p-2 rounded-lg'>Make a Payment</button>
         </div>
     </div>
   )

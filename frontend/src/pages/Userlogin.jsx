@@ -69,7 +69,7 @@ const Userlogin = () => {
                 type="password" 
                 placeholder='password'
                 />
-                <button className='bg-[#111] text-white font-semibold mb-2 rounded-xl px-4 py-2 border w-full text-lg placeholder:text-base'
+                <button className='bg-[#111] text-red font-semibold mb-2 rounded-xl px-4 py-2 border w-full text-lg placeholder:text-base'
                 >Login</button>
             </form>
             <p className='text-center pb-4'>New here? <Link to='/user-signup'

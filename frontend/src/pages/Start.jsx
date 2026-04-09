@@ -10,7 +10,7 @@ const Start = () => {
             <div className='bg-white py-4 px-4 pb-7'>
                 <h2 className='text-3xl font-bold'>Get Started with thakur</h2>
                 <Link to='/user-login'
-                className='flex items-center justify-center w-full bg-black text-white py-3 mt-2 rounded-xl mt-4'>Continue</Link>
+                className='flex items-center justify-center w-full bg-black text-red py-3 mt-2 rounded-xl mt-4'>Continue</Link>
             </div>
         </div>
     </div>

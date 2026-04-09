@@ -114,7 +114,7 @@ const ConfirmRidePopUp = (props) => {
 
 
                     <button type='submit'
-                    className='w-full flex justify-center text-lg mt-5 text-white p-2 rounded-xl bg-green-500 font-semibold'>Confirm Ride</button>
+                    className='w-full flex justify-center text-lg mt-5 text-red p-2 rounded-xl bg-green-500 font-semibold'>Confirm Ride</button>
 
                     <button onClick={() => {
                         props.setConfirmRidePopUpPanel(false)
