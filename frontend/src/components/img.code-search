@@ -1,0 +1,104 @@
+# Query: img
+# ContextLines: 1
+
+21 results - 18 files
+
+uber-vedio\frontend\src\assets\react.svg:
+  1: <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="35.93" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 228"><path fill="#00D8FF" d="M210.483 73.824a171.49 171.49 0 0 0-8.24-2.597c.465-1.9.893-3.777 1.273-5.621c6.238-30.281 2.16-54.676-11.769-62.708c-13.355-7.7-35.196.329-57.254 19.526a171.23 171.23 0 0 0-6.375 5.848a155.866 155.866 0 0 0-4.241-3.917C100.759 3.829 77.587-4.822 63.673 3.233C50.33 10.957 46.379 33.89 51.995 62.588a170.974 170.974 0 0 0 1.892 8.48c-3.28.932-6.445 1.924-9.474 2.98C17.309 83.498 0 98.307 0 113.668c0 15.865 18.582 31.778 46.812 41.427a145.52 145.52 0 0 0 6.921 2.165a167.467 167.467 0 0 0-2.01 9.138c-5.354 28.2-1.173 50.591 12.134 58.266c13.744 7.926 36.812-.22 59.273-19.855a145.567 145.567 0 0 0 5.342-4.923a168.064 168.064 0 0 0 6.92 6.314c21.758 18.722 43.246 26.282 56.54 18.586c13.731-7.949 18.194-32.003 12.4-61.268a145.016 145.016 0 0 0-1.535-6.842c1.62-.48 3.21-.974 4.76-1.488c29.348-9.723 48.443-25.443 48.443-41.52c0-15.417-17.868-30.326-45.5
+
+uber-vedio\frontend\src\components\CaptainDetails.jsx:
+  11              <div className='flex items-center justify-start gap-1'>
+  12:               <img className='h-10 w-10 rounded-full object-cover' src="https://images.rawpixel.com/image_png_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3Jhd3BpeGVsX29mZmljZV8yM19ncmFwaGljX29mX2dub21lX19ob2xkaW5nX2NocmlzdG1hc19vcm5hbWVudF8zNGQ3MjBiMy1jYWNmLTQ2MjQtODM0NC0wNGQ1ZGJiNGQ0MzJfMS5wbmc.png" alt="" />
+  13                <h4 className='text-lg font-semibold capitalize'>{captain?.fullName?.firstName + " " + captain?.fullName?.lastName}</h4>
+
+uber-vedio\frontend\src\components\ConfirmRide.jsx:
+  13          <div className='flex gap-5 flex-col items-center justify-between'>
+  14:             <img className='h-20'
+  15              src="https://images.rawpixel.com/image_png_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3Jhd3BpeGVsX29mZmljZV8yM19ncmFwaGljX29mX2dub21lX19ob2xkaW5nX2NocmlzdG1hc19vcm5hbWVudF8zNGQ3MjBiMy1jYWNmLTQ2MjQtODM0NC0wNGQ1ZGJiNGQ0MzJfMS5wbmc.png" alt="" />
+
+uber-vedio\frontend\src\components\ConfirmRidePopUp.jsx:
+  71              <div className='flex items-center gap-3 '>
+  72:                 <img className='w-12 h-12 rounded-full object-cover' src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+  73                  <h2 className='text-lg font-medium capitalize'>{props.ride?.user?.fullName.firstName}</h2>
+
+uber-vedio\frontend\src\components\FinishRide.jsx:
+  35              <div className='flex  items-center gap-3 rounded-lg mt-2'>
+  36:                 <img className='w-12 h-12 rounded-full object-cover' src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+  37                  <h2 className='text-lg font-medium'>{props.ride?.user.fullName.firstName}</h2>
+
+uber-vedio\frontend\src\components\LookingForDriver.jsx:
+  12          <div className='flex gap-5 flex-col items-center justify-between'>
+  13:             <img className='h-20'
+  14              src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+
+uber-vedio\frontend\src\components\RidePopUp.jsx:
+  13              <div className='flex items-center gap-3 '>
+  14:                 <img className='w-12 h-12 rounded-full object-cover' src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+  15                  <h2 className='text-lg font-medium'>{props.ride?.user.fullName.firstName + " " + props.ride?.user.fullName.lastName}</h2>
+
+uber-vedio\frontend\src\components\VehiclePanel.jsx:
+  16            className='w-full mb-3 border-2 active:border-black rounded-xl p-3 flex items-center justify-between '>
+  17:             <img className='h-20 w-20'
+  18              src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+
+  32            className='w-full mb-3 border-2 border-black rounded-xl px-3 py-5 flex items-center justify-between '>
+  33:             <img className='h-12 w-20'
+  34              src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+
+  48            className='w-full mb-3 border-2 border-black rounded-xl px-3 py-5 flex items-center justify-between '>
+  49:             <img className='h-12 w-20'
+  50              src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+
+uber-vedio\frontend\src\components\WaitingForDriver.jsx:
+  15          <div className='flex items-center justify-between'>
+  16:              <img className='h-12'
+  17              src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+
+uber-vedio\frontend\src\pages\CaptainHome.jsx:
+  142          <div className='fixed p-6 top-0 flex items-center justify-between w-full'>
+  143:           <img className='w-16' src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png"/>
+  144            <Link to={'/captain-login'}  className='h-10 w-10 bg-white flex items-center justify-center rounded-full'>
+
+  149          <div className='h-3/5'>
+  150:             <img className='h-full w-full object-cover'
+  151              src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+
+uber-vedio\frontend\src\pages\Captainlogin.jsx:
+  47              }}>
+  48:                 <img className='w-16 mb-8'
+  49                  src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="thakur captain logo" />
+
+uber-vedio\frontend\src\pages\CaptainRiding.jsx:
+  31          <div className='fixed p-6 top-0 flex items-center justify-between w-full'>
+  32:           <img className='w-16' src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png"/>
+  33            <Link to={'/captain-login'}  className='h-10 w-10 bg-white flex items-center justify-center rounded-full'>
+
+uber-vedio\frontend\src\pages\CaptainSignup.jsx:
+  66              }}>
+  67:                  <img className='w-16 mb-4'
+  68                  src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="thakur captain logo" />
+
+uber-vedio\frontend\src\pages\Home.jsx:
+  233        <div className='h-screen relative overflow-hidden'>
+  234:         <img className='w-16 absolute top-5 left-5'
+  235          src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+
+uber-vedio\frontend\src\pages\Riding.jsx:
+  30              <div className='flex items-center justify-between'>
+  31:              <img className='h-12'
+  32              src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+
+uber-vedio\frontend\src\pages\Start.jsx:
+  7          <div className='bg-cover bg-center bg-[url(https://cbx-prod.b-cdn.net/COLOURBOX69681400.jpg?width=800&height=800&quality=70)] h-screen pt-8 flex flex-col justify-between w-full bg-red-400'>
+  8:             <img className='w-16 ml-8'
+  9              src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+
+uber-vedio\frontend\src\pages\Userlogin.jsx:
+  48              }}>
+  49:                 <img className='w-16 mb-8'
+  50                  src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />
+
+uber-vedio\frontend\src\pages\UserSignup.jsx:
+  52              }}>
+  53:                 <img className='w-16 mb-8'
+  54                  src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-cartoon-vector-black-address-icon-material-png-image_4238108.png" alt="" />

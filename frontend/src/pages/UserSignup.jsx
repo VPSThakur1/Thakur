@@ -51,7 +51,7 @@ const UserSignup = () => {
                 submitHandler(e)
             }}>
                 <img className='w-16 mb-8'
-                src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png" alt="" />
+                src="https://upload.wikimedia.org/wikipedia/commons/c/cc/thakur_logo_2018.png" alt="" />
 
                 <h3 className='text-xl mb-2 font-medium'>What's your Name</h3>
                 <div className='flex gap-1'>
@@ -103,7 +103,7 @@ const UserSignup = () => {
             className='text-blue-600'>Login here</Link></p>
         </div>
         <div>
-            <p className='text-[10px] leading-tight'>By proceeding, you consent to get calls, whatsapp or sms messages, including by automated means, from Uber and its affiliated to the number provided</p>
+            <p className='text-[10px] leading-tight'>By proceeding, you consent to get calls, whatsapp or sms messages, including by automated means, from thakur and its affiliated to the number provided</p>
         </div>
     </div>
   )

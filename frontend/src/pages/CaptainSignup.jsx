@@ -65,7 +65,7 @@ const CaptainSignup = () => {
                 submitHandler(e)
             }}>
                  <img className='w-16 mb-4'
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVCO4w_adxK32rCXFeKq3_NbLcR9b_js14w&s" alt="uber captain logo" />
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVCO4w_adxK32rCXFeKq3_NbLcR9b_js14w&s" alt="thakur captain logo" />
 
                 <h3 className='text-xl mb-2 font-medium'>What's your Name</h3>
                 <div className='flex gap-1'>

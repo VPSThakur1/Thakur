@@ -46,7 +46,7 @@ const Captainlogin = () => {
                 submitHandler(e)
             }}>
                 <img className='w-16 mb-8'
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVCO4w_adxK32rCXFeKq3_NbLcR9b_js14w&s" alt="uber captain logo" />
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVCO4w_adxK32rCXFeKq3_NbLcR9b_js14w&s" alt="thakur captain logo" />
                 <h3 className='text-xl mb-2 font-medium'>What's your email</h3>
                 <input className='bg-[#eeeeee] mb-7 rounded px-4 py-2 border w-full text-lg placeholder:text-base'
                 required 

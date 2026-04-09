@@ -29,7 +29,7 @@ const CaptainRiding = (props) => {
     <div className='h-screen relative'>
         
         <div className='fixed p-6 top-0 flex items-center justify-between w-full'>
-          <img className='w-16' src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"/>
+          <img className='w-16' src="https://upload.wikimedia.org/wikipedia/commons/c/cc/thakur_logo_2018.png"/>
           <Link to={'/captain-login'}  className='h-10 w-10 bg-white flex items-center justify-center rounded-full'>
             <i className="text-xl font-bold ri-logout-box-line"></i>
           </Link>
